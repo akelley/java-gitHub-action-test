@@ -15,7 +15,7 @@ public class GreetingControllerTest {
                 .when().get("/greeting/quarkus")
                 .then()
                 .statusCode(200)
-                .body("message", is("hello quarkus"));
+                .body("message", is("hello quarkus broken"));
     }
 
 }
