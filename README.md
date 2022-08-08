@@ -1,4 +1,4 @@
-https://github.com/akelley/java-gitHub-action-test/workflows/CI/badge.svg
+![](https://github.com/akelley/java-gitHub-action-test/workflows/CI/badge.svg)
 # code-with-quarkus Project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
