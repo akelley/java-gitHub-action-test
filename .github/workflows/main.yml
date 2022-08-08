@@ -6,6 +6,7 @@ on:
 
 jobs:
   run_tests:
+    if: ${{ github.event.label.name != 'infra' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
